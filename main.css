@@ -1,0 +1,33 @@
+h1 {
+     font-size:  72px;
+	 font-family: 'Krona One', sans-serif;
+ }
+
+ body {
+     background-color: #06a7ad;
+     }
+
+p   {
+	  font-size: 25px;
+	  font-family: 'Indie Flower', cursive;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	 display: block;
+	 color: white;
+	 text-align: center;
+	 padding: 14px 16px;
+	 text-decoration: none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, World! - A-Frame</title>
+    <meta name="description" content="Hello, World! - A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+ <div id="navbar">
+    <ul>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="active"><a href="index.html">Projects</a></li>
+      <li class="active"><a href="vr.html">VR</a></li>
+      </ul>         
+  </div>
+
+    <a-scene>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-sphere position="-1 .5 -3" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-sky color="#ECECEC"></a-sky>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+    </a-scene>
+    <a-ring color="teal" radius-inner="1" radius-outer="2"></a-ring>
+  </body>
+</html>
